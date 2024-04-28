@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { QrReader } from "react-qr-reader";
+import "../styles/manuf_options.css";
 import "../styles/customer.css";
 import { toast } from "react-toastify";
 
@@ -103,7 +104,7 @@ const Qrcode = () => {
             </div>
             <div>
               {/* <h1 style={{ marginLeft: '200px', display: 'inline' }}>QR reader</h1> */}
-              <h1 className="title2">Scan the QR</h1>
+              {scanning && <h1 className="title2">Scan the QR</h1>}
             </div>
             <div>
               {<div>{scanning && <QrReader onResult={scanresult} />}</div>}
