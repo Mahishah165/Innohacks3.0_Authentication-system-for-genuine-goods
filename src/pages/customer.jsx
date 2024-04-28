@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { QrReader } from "react-qr-reader";
-import "../styles/manuf_options.css";
-import "../styles/customer.css";
+import "../style/manuf_options.css";
+import "../style/customer.css";
 import { toast } from "react-toastify";
 
 const Qrcode = () => {
