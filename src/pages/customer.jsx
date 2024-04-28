@@ -85,7 +85,7 @@ const Qrcode = () => {
       <div className="main_body">
         <div>
           <h2 className="title1"> Product verification</h2>
-          <div>
+          <div className="fix-height">
             <div className="Container1">
               <div className="Scanner">
                 <QrReader
