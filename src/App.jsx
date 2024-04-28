@@ -1,4 +1,5 @@
 import Qrcode from "./pages/customer.jsx";
+
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 function App() {
   
