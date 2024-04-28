@@ -22,6 +22,10 @@
     left: 30% ;
     outline: none;
   } */
+  .fix-height{
+    overflow : hidden;
+    max-height: 90vh;
+  }
   .main_body{
     /* background-color: red; */
     background: url('../../public/img/bg2.jpg');
