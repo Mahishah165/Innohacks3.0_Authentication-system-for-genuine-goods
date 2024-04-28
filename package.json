@@ -10,11 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.15",
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-qr-reader": "^3.0.0-beta-1",
     "react-router-dom": "^6.23.0",
-    "react-toastify": "^10.0.5"
+    "react-toastify": "^10.0.5",
+    "solc": "^0.8.25",
+    "web3": "^4.8.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
