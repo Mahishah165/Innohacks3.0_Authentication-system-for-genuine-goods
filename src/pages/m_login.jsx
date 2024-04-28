@@ -4,7 +4,7 @@ import "../style/m_login.css";
 import { useNavigate } from "react-router-dom";
 import factory from "../ethereum/factory";
 import web3 from "../ethereum/web3";
-// import "@fortawesome/fontawesome-free/css/all.css";
+import "@fortawesome/fontawesome-free/css/all.css";
 import { toast } from "react-toastify";
 
 const ManufacturerLogin = (props) => {
