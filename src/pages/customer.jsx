@@ -3,6 +3,8 @@ import { QrReader } from "react-qr-reader";
 import "../style/manuf_options.css";
 import "../style/customer.css";
 import { toast } from "react-toastify";
+import Manufacturer from "../ethereum/manufacturerIns";
+import factory from "../ethereum/factory";
 
 const Qrcode = () => {
   const [fileResult, setFileResult] = useState("");

@@ -13,7 +13,6 @@ import SellToCustomer from "./pages/seller/sellToCustomer.jsx";
 // // import About from "./components/about.js";
 // import Contact from "./components/contact.js";
 // import DisableBrowserNavigation from "./components/DisableBrowserNavigation.jsx";
-import { ToastContainer } from "react-toastify";
 function App() {
   const [address, setAddress] = useState("");
   const [brandName, setBrandName] = useState("");
